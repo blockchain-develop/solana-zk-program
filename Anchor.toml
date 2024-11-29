@@ -7,7 +7,7 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-solana_zk_program = "3qpBrBRTWCSKZHqUYgfNsGDgM8DDqk6TEniq8w6EyjJB"
+solana_zk_program = "6HBK3kVHi4og1cNQmNKWb39TmJK92bwY3KfYyH8gXM8p"
 
 [registry]
 url = "https://api.apr.dev"
