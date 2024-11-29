@@ -737,6 +737,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "groth16-solana"
+version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5650595f0c8cf8b45ddaa0d9ede9ae54b45f36352afde98e0face95ccee4854c"
+dependencies = [
+ "solana-program",
+ "thiserror",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1437,6 +1447,7 @@ name = "solana-zk-program"
 version = "0.1.0"
 dependencies = [
  "anchor-lang",
+ "groth16-solana",
 ]
 
 [[package]]
